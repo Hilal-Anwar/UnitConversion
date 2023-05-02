@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Unit Convertor</string>
+    <string name="header_title">Unit Convertor</string>
+    <string name="header_text">High conversions, high profits.</string>
+    <string name="subheader_title1">General</string>
+    <string name="lenght_title">Length</string>
+    <string name="angle_title">Angle</string>
+    <string name="time_title">Time</string>
+    <string name="currency_title">Currency</string>
+    <string name="labels_subheader_title">Physics</string>
+    <string name="wm_title">Mass and weight</string>
+    <string name="speed_title">Speed</string>
+</resources>

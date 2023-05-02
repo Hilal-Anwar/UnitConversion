@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/subheader_title1">
+        <menu>
+            <item
+                android:id="@+id/length_item"
+                android:checkable="true"
+                android:icon="@drawable/_lenght"
+                android:title="@string/lenght_title"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/angle_item"
+                android:checkable="true"
+                android:icon="@drawable/square_foot"
+                android:title="@string/angle_title"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/time_item"
+                android:checkable="true"
+                android:icon="@drawable/schedule"
+                android:title="@string/time_title"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/currency_item"
+                android:checkable="true"
+                android:icon="@drawable/currency_exchange"
+                android:title="@string/currency_title"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/labels_item"
+        android:title="@string/labels_subheader_title">
+        <menu>
+            <item
+                android:id="@+id/mass"
+                android:checkable="true"
+                android:icon="@drawable/weight"
+                android:title="@string/wm_title"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/speed"
+                android:checkable="true"
+                android:icon="@drawable/speed"
+                android:title="@string/speed_title"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>
