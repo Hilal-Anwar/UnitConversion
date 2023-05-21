@@ -10,4 +10,11 @@
     <string name="labels_subheader_title">Physics</string>
     <string name="wm_title">Mass and weight</string>
     <string name="speed_title">Speed</string>
+    <string name="convert_title">Convert</string>
+    <string name="history_title">History</string>
+    <string name="empty"> </string>
+    <string name="c_code">🇮🇳 INR</string>
+    <string name="c_name">Indian rupues</string>
+    <string name="create_units">Create units</string>
+    <string name="currency_title_1">Currency</string>
 </resources>

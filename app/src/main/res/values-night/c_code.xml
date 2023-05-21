@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="code">
+        <item>🇮🇳 INR</item>
+        <item>🇺🇸 USD</item>
+        <item>🇵🇰 PKR</item>
+        <item>🇩🇪 EUR</item>
+        <item>🇬🇧 GBP</item>
+        <item>🇦🇪 AED</item>
+    </array>
+</resources>

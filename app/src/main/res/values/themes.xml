@@ -2,10 +2,18 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Test" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/lemon</item>
+        <item name="colorPrimaryContainer">@color/dark_lemon</item>
+        <item name="colorSecondary">@color/Quincy</item>
+        <item name="colorSecondaryContainer">@color/Quincy_light</item>
+        <item name="colorOnSurfaceVariant">@color/Quincy</item>
+        <item name="colorTertiary">@color/Feldgrau</item>
+        <item name="colorTertiaryContainer">@color/Feldgrau_light</item>
+        <item name="textBackground">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorControlHighlight">@color/black</item>
         <!-- Customize your theme here. -->
     </style>
 

@@ -5,30 +5,33 @@
         android:id="@+id/main_item"
         android:title="@string/subheader_title1">
         <menu>
-            <item
-                android:id="@+id/length_item"
-                android:checkable="true"
-                android:icon="@drawable/_lenght"
-                android:title="@string/lenght_title"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/angle_item"
-                android:checkable="true"
-                android:icon="@drawable/square_foot"
-                android:title="@string/angle_title"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/time_item"
-                android:checkable="true"
-                android:icon="@drawable/schedule"
-                android:title="@string/time_title"
-                app:showAsAction="ifRoom" />
-            <item
-                android:id="@+id/currency_item"
-                android:checkable="true"
-                android:icon="@drawable/currency_exchange"
-                android:title="@string/currency_title"
-                app:showAsAction="ifRoom" />
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/length_item"
+                    android:checkable="true"
+                    android:checked="true"
+                    android:icon="@drawable/_lenght"
+                    android:title="@string/lenght_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/angle_item"
+                    android:checkable="true"
+                    android:icon="@drawable/square_foot"
+                    android:title="@string/angle_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/time_item"
+                    android:checkable="true"
+                    android:icon="@drawable/schedule"
+                    android:title="@string/time_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/currency_item"
+                    android:checkable="true"
+                    android:icon="@drawable/currency_exchange"
+                    android:title="@string/currency_title"
+                    app:showAsAction="ifRoom" />
+            </group>
         </menu>
     </item>
     <item

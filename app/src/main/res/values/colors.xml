@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#1c1b1f</color>
+    <color name="white">#fffbfe</color>
+    <color name="dark_lemon">#616200</color>
+    <color name="lemon">#e8e970</color>
+    <color name="Quincy">#606042</color>
+    <color name="Quincy_light">#e6e4bf</color>
+    <color name="Quincy_light_dark">#595401</color>
+    <color name="Feldgrau">#3d6657</color>
+    <color name="Feldgrau_light">#bfedd9</color>
 </resources>
