@@ -10,6 +10,7 @@
         <item name="colorTertiary">@color/Feldgrau</item>
         <item name="colorTertiaryContainer">@color/Feldgrau_light</item>
         <item name="textBackground">@color/white</item>
+        <item name="textFillColor">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
