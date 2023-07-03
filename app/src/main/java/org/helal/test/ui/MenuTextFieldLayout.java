@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ public class MenuTextFieldLayout extends LinearLayout {
     private TextInputEditText textInputEditText;
     private LinearLayoutCompat linearLayout;
     private TextView textView;
+    private ImageView endIcon;
 
     public MenuTextFieldLayout(Context context) {
         super(context);
@@ -38,6 +40,7 @@ public class MenuTextFieldLayout extends LinearLayout {
         linearLayout = findViewById(R.id.menu_text_main);
         textInputEditText = findViewById(R.id.textInputEditText);
         textView = findViewById(R.id.title_lable);
+        endIcon = findViewById(R.id.endIcon);
         textInputEditText.setFocusableInTouchMode(true);
         textInputEditText.setOnFocusChangeListener((v, hasFocus) -> actionOnFocus(hasFocus, focus_color, label_text_fill));
 

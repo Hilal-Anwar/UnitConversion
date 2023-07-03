@@ -3,6 +3,8 @@
     <declare-styleable name="MenuTextFieldLayout">
         <attr name="titleText" format="string" localization="suggested" />
         <attr name="focusColorValue" format="color" />
+        <attr name="upTrendingColor" format="color" />
+        <attr name="downTrendingColor" format="color" />
         <attr name="labelTextFillColor" format="color" />
     </declare-styleable>
 </resources>
